@@ -9,12 +9,12 @@ https://rocky-river-78959.herokuapp.com/
 as i deploy on heroku.com as mention on examination
 
 
-as i use bootstrap-framework for easy contract FE for desktop and mobile.
+as i use bootstrap-framework for easy constract FE for desktop and mobile.
 and modified this bootstrap gallery layout
 
 https://github.com/michaelsoriano/bootstrap-photo-gallery
 
-bellow all the coding i create on my own skill.
+bellow all the coding i created just on my onw.
 
 using my main language (PHP) on web developing. to integrage the flickr API.
 
