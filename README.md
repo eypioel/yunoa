@@ -1,48 +1,30 @@
-# bootstrap-photo-gallery
+# coding examination
 
-A simple jQuery plugin that will create a Bootstrap based Photo Gallery for your images. Supports variable height for the images and captions. An optional "modal" box with "next" and "previous" paging is also included. Plugin requires Bootstrap (3.3.5 and above) jQuery (1.10 and above). 
+Hello
 
-![alt tag](http://michaelsoriano.com/wp-content/uploads/2013/11/bootstrap-gallery-demo.gif)
+Orio here. applying for web developer and here the results of my examination that you gave to me.
 
-###How to Use:
+"LIVE LINK" :
+https://rocky-river-78959.herokuapp.com/
+as i deploy on heroku.com as mention on examination
 
-Make sure you include the required files before the plugin. 
 
-You need to create an unordered list of your images. 
+as i use bootstrap-framework for easy contract FE for desktop and mobile.
+and modified this bootstrap gallery layout
 
-```
- <ul class="first">
-    <li>
-        <img  src="images/photodune-174908-rocking-the-night-away-xs.jpg">
-    </li>
-    <li>
-        <img  src="images/photodune-287182-blah-blah-blah-yellow-road-sign-xs.jpg">
-    </li>
-    <li>
-        <img  src="images/photodune-460760-colors-xs.jpg">
-    </li>
-    ...
-</ul>
+https://github.com/michaelsoriano/bootstrap-photo-gallery
 
-```
+bellow all the coding i create on my own skill.
 
-Then initialize the plugin and pass in the Boostrap classes for different sizes as a parameter. The "hasModal" is true by default - but can be turned off by setting it to "false". 
+using my main language (PHP) on web developing. to integrage the flickr API.
 
-```
-$('ul.first').bsPhotoGallery({
-    "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
-    "hasModal" : true
-  });
-```
+on the infinite scrolling i make it using.
+	javascript
+	jquery
+	ajax
+	and php (json responde).
+	
+also on autocomplete function using jquery autocomplete and some code on PHP as json responde.
 
-If you need to show a different image in the modal box, you need to add an extra attribute to the image "data-bsp-large-src" with the value as the path to the image.
 
-The original tutorial can be found here: 
 
-"How to create a responsive photo gallery using Bootstrap" :
-http://michaelsoriano.com/create-a-responsive-photo-gallery-with-bootstrap-framework/
-
-and
-
-"Let’s Add Next and Previous Buttons to our Bootstrap Photo Gallery"
-http://michaelsoriano.com/next-and-previous-buttons-bootstrap-photo-gallery/
