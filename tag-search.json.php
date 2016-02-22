@@ -3,8 +3,8 @@ header('Content-Type: application/json');
 
 if(isset($_GET['term'])){
 $gettag = urlencode($_GET['term']);
-
-$url = "https://api.flickr.com/services/rest/?method=flickr.tags.getRelated&api_key=1c677e797eb03c62ac8e14aae3926fbf&tag=".$gettag."&format=json&nojsoncallback=1";
+$api_key = 'aa16a2d93627e7cb4ff8e957553050fb';
+$url = "https://api.flickr.com/services/rest/?method=flickr.tags.getRelated&api_key=".$api_key."&tag=".$gettag."&format=json&nojsoncallback=1";
 
 
 $response = json_decode(file_get_contents($url));
